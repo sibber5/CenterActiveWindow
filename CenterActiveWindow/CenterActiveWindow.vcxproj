@@ -134,13 +134,13 @@
     <ClCompile Include="CenterActiveWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Version.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Icon.ico" />
+    <ResourceCompile Include="CenterActiveWindow.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
